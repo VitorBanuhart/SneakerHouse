@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    background-image: url(fundo.png);
+    background-repeat: repeat-x;
+ }
+
+ .titulo_cabecalho {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: #383030;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+    font-size: 17px;
+}
+
+.itens {
+    display: flex;
+    padding: 1px 12px 1px 12px;
+}
+
+.menu_home {
+    border-right: 2px solid #000000;
+}
+
+.menu_about {
+    border-right: 2px solid #000000;
+}
+
+@media screen and (max-width: 740px) {
+    .cabecalho {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+    }
+
+    .titulo_cabecalho {
+        display: none;
+
+    }
+}
+
+.imagem {
+    position: relative;
+    width: 100vw;
+
+}
+
+.caixa_transparente {
+    position: relative;
+    top: -300px;
+    background-color: rgba(184, 184, 184, 0.4);
+    width: 20%;
+    box-shadow: 10px 10px 0 #000000;
+    
+}
+
+.conteudo_principal {
+   display: flex;
+   width: 100vw;
+   height: auto;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+.marca {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-radius: 5px;
+    background: linear-gradient(#dfdfdf 12.5%, #ffff);
+    margin-top: 30px;
+
+}
+
+.modelo_tenis {
+    width: 100%;
+    height: auto;
+    padding-top: 70px;
+}
+
+.logo_nike {
+    position: absolute;
+    max-width: 80px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.logo_puma {
+    position: absolute;
+    max-width: 60px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.logo_adidas {
+    position: absolute;
+    max-width: 45px;
+    max-height: 45px;
+    width: auto;
+    height: auto;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.logo_jordan {
+    position: absolute;
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.texto {
+    position: absolute;
+
+    padding: 0px 40px;
+}
